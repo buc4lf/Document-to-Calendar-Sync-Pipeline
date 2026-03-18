@@ -32,7 +32,7 @@ sudo apt install tesseract-ocr poppler-utils
 pip install pytesseract pdf2image
 ```
 2. Set up Google Calendar API
-  A) Go to Google Cloud Console
+  A) Go to Google Cloud Console <br>
   B) Create a new project (or select an existing one)
   C) Navigate to APIs & Services → Library
   D) Search for and enable Google Calendar API
