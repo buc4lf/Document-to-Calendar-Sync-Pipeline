@@ -1,5 +1,5 @@
 """
-Document text extraction — PDF text, OCR fallback, image handling.
+Document text extraction— PDF text, OCR fallback, image handling.
 """
 
 import logging
