@@ -47,16 +47,18 @@ pip install pytesseract pdf2image
 ```bash
 python3 setup_auth.py
 ```
-This will:
-Verify Ollama connectivity to JarvisWolf
-Check that paperless-ngx directories exist
-Walk you through Google OAuth consent (opens a browser)
-Check optional dependencies
+This will: <br>
+  - Verify Ollama connectivity to JarvisWolf
+  - Check that paperless-ngx directories exist
+  - Walk you through Google OAuth consent (opens a browser)
+  - Check optional dependencies
+
 4. Test a run
 ```bash
 python3 pipeline.py
 ```
 Check the output and `pipeline.log` for results.
+
 5. Set up the cron job
 ```bash
 crontab -e
