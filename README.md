@@ -1,7 +1,3 @@
-Document-to-Calendar Sync Pipeline
-Watches your paperless-ngx document directories for new files, extracts event
-information using a local Ollama LLM (gemma3:27b), and automatically creates
-Google Calendar events — with duplicate detection.
 Architecture
 ```
 DockerWolf                              JarvisWolf
