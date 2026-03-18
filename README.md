@@ -31,16 +31,16 @@ pip install -r requirements.txt
 sudo apt install tesseract-ocr poppler-utils
 pip install pytesseract pdf2image
 ```
-2. Set up Google Calendar API
+2. Set up Google Calendar API <br>
   A) Go to Google Cloud Console <br>
-  B) Create a new project (or select an existing one)
-  C) Navigate to APIs & Services → Library
-  D) Search for and enable Google Calendar API
-  E) Go to APIs & Services → Credentials
-  F) Click Create Credentials → OAuth client ID
-  G) Select Desktop application, give it a name, click Create
-  H) Download the JSON file
-  I) Save it as `/home/wesley/doc-calendar-sync/credentials.json`
+  B) Create a new project (or select an existing one) <br>
+  C) Navigate to APIs & Services → Library <br>
+  D) Search for and enable Google Calendar API <br>
+  E) Go to APIs & Services → Credentials <br>
+  F) Click Create Credentials → OAuth client ID <br>
+  G) Select Desktop application, give it a name, click Create <br>
+  H) Download the JSON file <br>
+  I) Save it as `/home/wesley/doc-calendar-sync/credentials.json` <br>
 
 
 3. Run the setup helper
