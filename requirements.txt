@@ -1,0 +1,19 @@
+# Core
+requests>=2.31
+
+# PDF text extraction
+pypdf>=4.0
+
+# Google Calendar API
+google-api-python-client>=2.100
+google-auth-httplib2>=0.2
+google-auth-oauthlib>=1.2
+
+# Image handling
+Pillow>=10.0
+
+# Optional: OCR fallback (install tesseract-ocr system package too)
+# pytesseract>=0.3
+
+# Optional: PDF-to-image for vision fallback (install poppler-utils system package too)
+# pdf2image>=1.16
