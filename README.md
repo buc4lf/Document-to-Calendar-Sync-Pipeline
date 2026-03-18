@@ -14,13 +14,13 @@ DockerWolf                              JarvisWolf
 └─────────────────────────┘
 ```
 Processing flow per file:
-Try text extraction from archive PDF (fast, no LLM needed for OCR)
-If text is too short/garbled → fall back to sending original image to
-gemma3:27b via multimodal vision
-LLM returns structured JSON with event details
-Check Google Calendar for duplicate events (date + title match)
-Create new events or update existing ones
-After all files done: unload gemma3:27b, reload qwen3-vl:8b-instruct
+1) Try text extraction from archive PDF (fast, no LLM needed for OCR)
+2) If text is too short/garbled → fall back to sending original image to gemma3:27b via multimodal vision
+3) LLM returns structured JSON with event details
+4) Check Google Calendar for duplicate events (date + title match)
+5) Create new events or update existing ones
+6) After all files done: unload multimodal, reload default model
+
 Setup
 1. Install Python dependencies
 ```bash
